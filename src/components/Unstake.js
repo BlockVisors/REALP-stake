@@ -28,7 +28,7 @@ export default function Unstake({web3, address, lidStakingSC, accountLidStaked})
 
   return (
     <Box w="100%" pt="20px" position="relative" textAlign="center">
-      <Text fontSize="36px">Unstake LID</Text>
+      <Text fontSize="36px">Unstake REALP</Text>
       <Text color="lid.info" mt="10px" mb="0px">
         2% fee to unstake.<br/>
         Fee is paid as dividends to stakers.

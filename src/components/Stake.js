@@ -56,10 +56,10 @@ export default function Stake({web3, address, lidStakingSC, accountLid, isRegist
 
   return (
     <Box w="100%" pt="20px" position="relative" textAlign="center">
-      <Text fontSize="36px">Stake LID</Text>
+      <Text fontSize="36px">Stake REALP</Text>
       <Text color="lid.info" mt="10px" mb="0px">
-        Initial fee for staking registration is 400 LID.<br/>
-        With a referral code, intitial fee is 200 LID.
+        Initial fee for staking registration is .04 REALP.<br/>
+        With a referral code, intitial fee is .020 REALP.
       </Text>
       <Text color="#55595D" m="20px">
         Your registration fee will be
@@ -68,13 +68,13 @@ export default function Stake({web3, address, lidStakingSC, accountLid, isRegist
           " 0 "
         ) : (
           referralAddress !== "0x0000000000000000000000000000000000000000" ? (
-            " 200 "
+            " .0200 "
           ) : (
-            " 400 "
+            " .0400 "
           )
         )
         }
-         LID
+         REALP
         </Text>.
       </Text>
       <NumberInput display="block" w="500px" maxW="100%" m="30px" ml="auto" mr="auto"
